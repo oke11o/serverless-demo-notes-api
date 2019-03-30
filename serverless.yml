@@ -1,5 +1,5 @@
 # NOTE: update this with your service name
-service: notes-app-api
+service: dnotes-app-api
 
 # Use the serverless-webpack plugin to transpile ES6
 plugins:
@@ -16,7 +16,7 @@ custom:
 provider:
   name: aws
   runtime: nodejs8.10
-  stage: dev
+  stage: prod
   region: us-east-1
   # To load environment variables externally
   # rename env.example to env.yml and uncomment
